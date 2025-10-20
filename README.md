@@ -75,8 +75,8 @@ An RC Snubber ($R_{SNB} = 47 \ \Omega$, $C_{SNB} = 75 \ pF$) was implemented to 
 The snubber significantly reduced transients, improving component reliability.
 
 <p float="left">
-  <img src="Images/SW_Node_Without_Snubber.png" width="500" />
-  <img src="Images/SW_Node_With_Snubber.png" width="500" />
+  <img src="Images/SW_Node_Without_Snubber.png" width="450" />
+  <img src="Images/SW_Node_With_Snubber.png" width="450" />
 </p>
 
 | Image 1 | Image 2 |
