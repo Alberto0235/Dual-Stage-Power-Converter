@@ -79,6 +79,10 @@ The snubber significantly reduced transients, improving component reliability.
   <img src="Images/SW_Node_With_Snubber.png" width="300" />
 </p>
 
+| Image 1 | Image 2 |
+|---------|---------|
+| ![Laboratory Instrumentation](Images/SW_Node_Without_Snubber.png) | ![Second Image](Images/SW_Node_With_Snubber.png) |
+
 
 ### 2. Output Regulation and Efficiency
 
