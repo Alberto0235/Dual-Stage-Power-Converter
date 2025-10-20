@@ -37,11 +37,14 @@ The full laboratory report detailing theoretical calculations, component sizing,
 
 ## 🛠️ Tools and Software Used
 
-| Category | Tool / Resource | Purpose |
-| :--- | :--- | :--- |
-| **Simulation** | **LTspice** | Schematic capture, transient analysis, component model integration, and Snubber tuning. |
-| **Documentation** | **LaTeX** | Professional preparation and formatting of the technical report. |
-| **Component Selection** | **Mouser Electronics** | Sourcing non-ideal models for MOSFETs, Diodes, and passive components to enhance simulation realism. |
+### Software
+
+* **LTspice:** For schematic capture, transient analysis, component model integration, and Snubber tuning.
+* **LaTeX:** For professional preparation and formatting of the technical report.
+
+### Websites
+
+* **Mouser Electronics** For component Selection
 
 ### Key Components Selected (Buck Stage)
 
