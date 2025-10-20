@@ -91,24 +91,32 @@ The inductor current ($I_L$) never drops to zero, confirming the correct sizing 
 
 The project files are organized to separate the documentation, schematics, and components.
 
+```
 Dual-Stage-Power-Converter/
 │
-├─ Dual_Stage_Converter_Project_Report.pdf    # Final project report (EN)
-├─ LICENSE                                 # MIT License
-├─ README.md                               # This file
+├─ Dual_Stage_Converter_Project_Report.pdf            # Final project report (EN)
+├─ LICENSE                                            # MIT License
+├─ README.md                                          # This file
 ├─ Simulations/
-│   ├─ Final_Circuit_With_Driver_Feedback.asc # The complete two-stage system  
-│   ├─ Boost_Converter_With_Snubber.asc    # Boost Converter with RC Snubber
+│   ├─Buck_Converter.asc
+│   ├─Buck_Converter_With_Snubber.asc
+│   ├─ Driver_and_Feedback_Stage.asc
+│   ├─  Final_Circuit.asc
+│   ├─ Final_Circuit_With_Driver_and_Feedback.asc    # The complete two-stage system 
+│   ├─   Full_Wave_Rectifier.asc
+│   ├─    Half_Wave_Rectifier.asc   
 │   └─ Components/
-│       ├─ 1400series.lib
-│       ├─ MBR760.txt
-│       └─ stp16nf06l.lib
+│       ├─ GBUE2560.txt
+│       ├─ STP20NM60.lib
+│       ├─ STP34NM60N.lib
+│       ├─ VS-ETH3007.txt
+│       └─ VS-ETU1506.txt
 └─ Images/
-    ├─ Circuit_on_Breadboard.jpg
-    ├─ Laboratory_Instrumentation.jpg
-    ├─ Measured_Data_Table.png
-    └─ Oscilloscope_Signals.jpg
-
+    ├─ 
+    ├─ 
+    ├─
+    └─ 
+```
 
 ---
 
