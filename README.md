@@ -85,10 +85,10 @@ The snubber significantly reduced transients, improving component reliability.
 | ![Laboratory Instrumentation](Images/SW_Node_Without_Snubber.png) | ![Second Image](Images/SW_Node_With_Snubber.png) |
 
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="Images/SW_Node_Without_Snubber.png" style="max-width: 48%; height: auto;">
-  <img src="Images/SW_Node_With_Snubber.png" style="max-width: 48%; height: auto;">
-</div>
+<p align="center">
+  <img src="Images/SW_Node_Without_Snubber.png" width="45%" />
+  <img src="Images/SW_Node_With_Snubber.png" width="45%" />
+</p>
 
 
 
