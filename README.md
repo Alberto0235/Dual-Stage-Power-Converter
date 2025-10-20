@@ -44,15 +44,18 @@ The full laboratory report detailing theoretical calculations, component sizing,
 
 ### Websites
 
-* **Mouser Electronics** For component Selection
+* **Mouser Electronics:** For component Selection
 
-### Key Components Selected (Buck Stage)
+### Key Components Selected (Final Circuit)
 
 | Component | Model | Critical Spec |
 | :--- | :--- | :--- |
 | **MOSFET** | **STP34NM60N** | $V_{DS} = 600 \ V$, $I_D = 31.5 \ A$ |
-| **Diode** | **VS-ETU1506-M3** | $I_D = 15 \ A$, Low $V_f$ |
-| **Driver/Op-Amp** | **AD8030ARZ** | High-speed operational amplifier for the feedback loop. |
+| **Diode** | **VS-ETU1506** | $I_F = 15 \ A$, $V_f = 1.1 V @ I_F = 15 \ A$ |
+| **Full Bridge Rectifier** | **GBUE2560**| $I_F = 55 \ A$, $V_f = 0.75 V @ I_F = 12.5 \ A$
+| **Op-Amp** | **AD8030ARZ** | High-speed operational amplifier for the feedback loop. |
+
+
 
 ---
 
