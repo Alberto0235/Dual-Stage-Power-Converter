@@ -33,6 +33,48 @@ The design features a rectifier front-end followed by a controlled DC-DC Buck co
 The full laboratory report detailing all theoretical calculations, component sizing, and simulation results can be found here:
 ➡️ **[Download Dual-Stage Converter Project Report (EN)](Dual_Stage_Converter_Project_Report.pdf)**
 
+
+
+
+
+---
+
+## 📌 Project Overview
+
+This repository documents the comprehensive analysis, design, and simulation of a **Two-Stage Power Converter**.  
+The system transforms a variable AC input into a highly regulated DC output, specifically tailored to power an essential electronic load.
+
+The design features a **rectifier front-end** followed by a **controlled DC-DC Buck converter** with dynamic feedback, ensuring optimal efficiency and output stability despite input voltage fluctuations.
+
+**Project Objectives**
+
+1. Convert a nominal AC supply of **110 V RMS (±10%)** into a stable DC voltage.  
+2. Regulate the final output voltage to a target of **48 V**.  
+3. Implement a dynamic **Driver and Feedback** system to maintain output voltage stability against input variation and parasitic losses.  
+4. Mitigate switching transients using a custom-designed **RC Snubber** circuit.
+
+**Design Specifications (Summary)**
+
+| Parameter | Value | Notes |
+| :--- | :--- | :--- |
+| **Input AC Voltage** | 110 V RMS (±10%) | Input range: 99 V – 121 V RMS |
+| **Output DC Voltage** | 48 V | Target regulated voltage |
+| **Max Output Current** | 8.33 A | Corresponds to a 400 W load |
+| **Switching Frequency** | 100 kHz | Buck stage operating frequency (CCM) |
+| **Output Ripple** | < 1 % of Vo (ideal) | Target ripple reduction |
+| **Maximum Efficiency** | ≈ 91 % | Under specific test conditions |
+
+
+The full laboratory report detailing theoretical calculations, component sizing, and simulation results can be found here:  
+➡️ **[Download Dual-Stage Converter Project Report (EN)](Dual_Stage_Converter_Project_Report.pdf)**
+
+
+
+
+
+
+
+
 ---
 
 ## 🛠️ Tools and Software Used
