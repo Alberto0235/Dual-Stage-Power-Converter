@@ -44,7 +44,7 @@ The full laboratory report detailing theoretical calculations, component sizing,
 
 ### Websites
 
-* **Mouser Electronics:** For component Selection
+* **Mouser Electronics:** For component selection
 
 ### Key Components Selected (Final Circuit)
 
