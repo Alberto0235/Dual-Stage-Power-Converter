@@ -85,6 +85,9 @@ The snubber significantly reduced transients, improving component reliability.
 | ![Laboratory Instrumentation](Images/SW_Node_Without_Snubber.png) | ![Second Image](Images/SW_Node_With_Snubber.png) |
 
 
+![Image 1](Images/SW_Node_Without_Snubber.png) ![Image 2](Images/SW_Node_With_Snubber.png)
+
+
 ### 2. Output Regulation and Efficiency
 
 The closed-loop feedback system dynamically adjusts the **Duty Cycle ($D$)** to maintain $V_o = 48 \ V$, compensating for input variation and internal losses.
