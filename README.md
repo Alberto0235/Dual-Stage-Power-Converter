@@ -31,8 +31,7 @@ The design features a **rectifier front-end** followed by a **controlled DC-DC B
 | **Maximum Efficiency** ($E_{ff}$) | ≈ 91% | Achieved under specific conditions. |
 
 
-The full laboratory report detailing theoretical calculations, component sizing, and simulation results can be found here:  
-➡️ **[Download Dual-Stage Converter Project Report (EN)](Dual_Stage_Converter_Project_Report.pdf)**
+The full laboratory report detailing theoretical calculations, component sizing, and simulation results can be found here: ➡️ **[Download Dual-Stage Converter Project Report (EN)](Dual_Stage_Converter_Project_Report.pdf)**
 
 ---
 
