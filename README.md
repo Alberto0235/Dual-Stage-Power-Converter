@@ -1,8 +1,8 @@
 # ⚡ Dual-Stage Power Converter: AC-DC Rectification & Regulated DC-DC Buck
 
-**Course:** Power Electronics Laboratory
-**University:** University of Bologna, Cesena Campus
-**Academic Year:** 2023/2024
+**Course:** Power Electronics Laboratory  
+**University:** University of Bologna, Cesena Campus  
+**Academic Year:** 2023/2024  
 
 ---
 
