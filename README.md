@@ -79,8 +79,6 @@ The snubber significantly reduced transients, improving component reliability.
   <img src="Images/SW_Node_With_Snubber.png" width="49.5%" />
 </p>
 
-
-
 ### 2. Output Regulation and Efficiency
 
 The closed-loop feedback system dynamically adjusts the **Duty Cycle ($D$)** to maintain $V_o = 48 \ V$, compensating for input variation and internal losses.
@@ -94,7 +92,10 @@ The closed-loop feedback system dynamically adjusts the **Duty Cycle ($D$)** to 
 
 The inductor current ($I_L$) never drops to zero, confirming the correct sizing of $L = 27 \ \mu H$ and ensuring operation in **CCM** under full load conditions.
 
-![Inductor Current CCM Verification](Images/BuckInductorCurrentCCM.png)
+<p align="center">
+  <img src="Images/Inductor_Current_Case_Vmax.png" width="49.5%" />
+  <img src="Images/Inductor_Current_Case_Vmin.png" width="49.5%" />
+</p>
 
 ---
 
@@ -123,16 +124,16 @@ Dual-Stage-Power-Converter/
 │       ├─ VS-ETH3007.txt
 │       └─ VS-ETU1506.txt
 └─ Images/
-    ├─ 
-    ├─ 
-    ├─
-    └─ 
+    ├─ Inductor_Current_Case_Vmax.png
+    ├─ Inductor_Current_Case_Vmin.png
+    ├─ SW_Node_With_Snubber.png
+    └─ SW_Node_Without_Snubber.png
 ```
 
 ---
 
 ## 📜 License
 
-The source code and simulation files in the `Simulations/` folder are released under the **MIT License**.
+The simulation files in the `Simulations/` folder are released under the **MIT License**.
 
 The technical report (`Dual_Stage_Converter_Project_Report.pdf`) is licensed under **CC BY 4.0** (Creative Commons Attribution 4.0 International).
