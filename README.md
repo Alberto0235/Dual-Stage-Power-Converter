@@ -21,14 +21,14 @@ The design features a **rectifier front-end** followed by a **controlled DC-DC B
 
 **Design Specifications (Summary)**
 
-| Parameter | Value | Notes |
-| :--- | :--- | :--- |
-| **Input AC Voltage** ($V_{in, AC}$) | $110 \ V_{RMS}$ (±10%) | Input range from $99 \ V_{RMS}$ to $121 \ V_{RMS}$. |
-| **Output DC Voltage** ($V_{o}$) | $48 \ V$ | Target regulated voltage. |
-| **Max Output Current** ($I_{o, max}$) | $8.33 \ A$ | Corresponds to a $400 \ W$ load. |
-| **Switching Frequency** ($f_{sw}$) | $100 \ kHz$ | Buck stage operating frequency (CCM). |
-| **Output Ripple** | < 1% of $V_{o}$ (ideal) | Target ripple reduction. |
-| **Maximum Efficiency** ($E_{ff}$) | ≈ 91% | Achieved under specific conditions. |
+| Parameter                                | Value                      | Notes                                                  |
+| :--------------------------------------- | :------------------------- | :----------------------------------------------------- |
+| **Input AC Voltage** ($V_{in, AC}$)      | $110 \ V_{RMS}$ (±10%)     | Input range from $99 \ V_{RMS}$ to $121 \ V_{RMS}$.    |
+| **Output DC Voltage** ($V_{o}$)          | $48 \ V$                   | Target regulated voltage.                              |
+| **Max Output Current** ($I_{o, max}$)    | $8.33 \ A$                 | Corresponds to a $400 \ W$ load.                       |
+| **Switching Frequency** ($f_{sw}$)       | $100 \ kHz$                | Buck stage operating frequency (CCM).                  |
+| **Output Ripple**                        | < 1% of $V_{o}$ (ideal)    | Target ripple reduction.                               |
+| **Maximum Efficiency** ($E_{ff}$)        | ≈ 91%                      | Achieved under specific conditions.                    |
 
 
 The full laboratory report detailing theoretical calculations, component sizing, and simulation results can be found here: ➡️ **[Download Dual-Stage Converter Project Report (EN)](Dual_Stage_Converter_Project_Report.pdf)**
@@ -48,12 +48,12 @@ The full laboratory report detailing theoretical calculations, component sizing,
 
 ### Key Components Selected (Final Circuit)
 
-| Component | Model | Critical Spec |
-| :--- | :--- | :--- |
-| **MOSFET** | **STP34NM60N** | $V_{DS} = 600 \ V$, $I_D = 31.5 \ A$ |
-| **Diode** | **VS-ETU1506** | $I_F = 15 \ A$, $V_f = 1.1 V @ I_F = 15 \ A$ |
-| **Full Bridge Rectifier** | **GBUE2560**| $I_F = 55 \ A$, $V_f = 0.75 V @ I_F = 12.5 \ A$
-| **Op-Amp** | **AD8030ARZ** | High-speed operational amplifier for the feedback loop. |
+| Component                    | Model             | Spec                                                       |
+| :--------------------------- | :---------------- | :--------------------------------------------------------- |
+| **MOSFET**                   | **STP34NM60N**    | $V_{DS} = 600 \ V$, $I_D = 31.5 \ A$                       |
+| **Diode**                    | **VS-ETU1506**    | $I_F = 15 \ A$, $V_f = 1.1 V @ I_F = 15 \ A$               |
+| **Full Bridge Rectifier**    | **GBUE2560**      | $I_F = 55 \ A$, $V_f = 0.75 V @ I_F = 12.5 \ A$            |
+| **Op-Amp**                   | **AD8030ARZ**     | High-speed operational amplifier for the feedback loop.    |
 
 
 
