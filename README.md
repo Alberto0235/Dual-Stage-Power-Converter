@@ -110,13 +110,13 @@ Dual-Stage-Power-Converter/
 ├─ LICENSE                                            # MIT License
 ├─ README.md                                          # This file
 ├─ Simulations/
-│   ├─Buck_Converter.asc
-│   ├─Buck_Converter_With_Snubber.asc
+│   ├─ Buck_Converter.asc
+│   ├─ Buck_Converter_With_Snubber.asc
 │   ├─ Driver_and_Feedback_Stage.asc
-│   ├─  Final_Circuit.asc
+│   ├─ Final_Circuit.asc
 │   ├─ Final_Circuit_With_Driver_and_Feedback.asc    # The complete two-stage system 
-│   ├─   Full_Wave_Rectifier.asc
-│   ├─    Half_Wave_Rectifier.asc   
+│   ├─ Full_Wave_Rectifier.asc
+│   ├─ Half_Wave_Rectifier.asc   
 │   └─ Components/
 │       ├─ GBUE2560.txt
 │       ├─ STP20NM60.lib
