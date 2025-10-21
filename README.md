@@ -106,9 +106,9 @@ The project files are organized to separate the documentation, schematics, and c
 ```
 Dual-Stage-Power-Converter/
 │
-├─ Dual_Stage_Converter_Project_Report.pdf            # Final project report (EN)
-├─ LICENSE                                            # MIT License
-├─ README.md                                          # This file
+├─ Dual_Stage_Converter_Project_Report.pdf           # Final project report (EN)
+├─ LICENSE                                           # MIT License
+├─ README.md                                         # This file
 ├─ Simulations/
 │   ├─ Buck_Converter.asc
 │   ├─ Buck_Converter_With_Snubber.asc
