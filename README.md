@@ -14,8 +14,8 @@ The design features a **rectifier front-end** followed by a **controlled DC-DC B
 
 **Project Objectives**
 
-1. Convert a nominal AC supply of **$110 \ V_{RMS}$ (±10%)** into a stable DC voltage.  
-2. Regulate the final output voltage to a target of **$V_{o} = 48 \ V$**.  
+1. Convert a nominal AC supply of $110 \ V_{RMS}$ (±10%) into a stable DC voltage.  
+2. Regulate the final output voltage to a target of $V_{o} = 48 \ V$.  
 3. Implement a dynamic **Driver and Feedback** system to maintain output voltage stability against input variation and parasitic losses.  
 4. Mitigate switching transients using a custom-designed **RC Snubber** circuit.  
 
